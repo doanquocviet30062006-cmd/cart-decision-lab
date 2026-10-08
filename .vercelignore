@@ -1,0 +1,8 @@
+.venv
+ml
+tests
+test-results
+evidence
+docs
+.github
+evidence-training.log

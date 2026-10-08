@@ -1,0 +1,14 @@
+{
+  "version": "cart-v1-0ab93bc0a028",
+  "sha256": "0ab93bc0a0285c919b3414fb2551419af0ebf69b0082fe1e002c450a82b6ba1b",
+  "sklearn": "1.9.1",
+  "numpy": "2.5.3",
+  "python": "3.12.14",
+  "split": "80/20",
+  "random_state": 42,
+  "cv_folds": 5,
+  "selection": "Fixed alpha grids; training-only CV; Macro F1 max / RMSE min; ties prefer larger alpha",
+  "inference_dtype": "float32",
+  "report_original": "Supplied DOCX; appendix A/B independently reproduced",
+  "trained_configuration_only": true
+}
