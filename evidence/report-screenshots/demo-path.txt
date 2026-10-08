@@ -1,0 +1,53 @@
+SUY LUẬN TỪ ARTIFACT
+Lớp được mô hình dự báo
+benign
+class 0
+benign (0)
+98,18%
+malignant (1)
+1,82%
+
+Phân bố mẫu train tại leaf, chưa hiệu chuẩn.
+
+Leaf node
+#4
+Mẫu train tại leaf
+274
+Impurity tại leaf
+0,03583
+Nhãn / target mẫu demo gốc
+benign (0)
+Model
+classification-03
+
+cart-v1-0ab93bc0a028
+
+Nhãn mẫu demo gốc không thay đổi khi chỉnh input. Kết quả hỗ trợ tìm hiểu thuật toán; diễn giải và quyết định thuộc về con người.
+1
+ROOT #0 · Điều kiện ≤ đúng · nhánh trái
+worst perimeter ≤ 112.7999992
+
+Input: 83.74 · float32: 83.73999786 · node tiếp theo #1
+
+2
+NODE #1 · Điều kiện ≤ đúng · nhánh trái
+worst concave points ≤ 0.1602999941
+
+Input: 0.08958 · float32: 0.08957999945 · node tiếp theo #2
+
+3
+NODE #2 · Điều kiện ≤ đúng · nhánh trái
+mean area ≤ 696.2500000
+
+Input: 403.3 · float32: 403.2999878 · node tiếp theo #3
+
+4
+NODE #3 · Điều kiện ≤ đúng · nhánh trái
+worst smoothness ≤ 0.1782499999
+
+Input: 0.1548 · float32: 0.1547999978 · node tiếp theo #4
+
+LEAF #4
+THEN lớp = benign (0)
+
+274 mẫu huấn luyện tại lá · model classification-03

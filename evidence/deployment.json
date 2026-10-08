@@ -1,0 +1,20 @@
+{
+  "verified": true,
+  "url": "https://cart-decision-lab.vercel.app",
+  "deploymentUrl": "https://cart-decision-rgnvvokco-doanquocviet30062006-8117s-projects.vercel.app",
+  "deploymentId": "dpl_4JvwT4MBJcwpJDnvVREQfpdbphus",
+  "project": "cart-decision-lab",
+  "sourceCommit": "8078b422ed54e86c812a46f711dc289c22dce38f",
+  "verifiedAt": "2026-10-08T16:54:05.743Z",
+  "verification": {
+    "browserTests": 4,
+    "routes": 7,
+    "refresh": true,
+    "actions": true,
+    "inputValidation": true,
+    "darkLightA11y": true,
+    "mobileTabletText200": true,
+    "pageErrors": 0,
+    "consoleErrors": 0
+  }
+}

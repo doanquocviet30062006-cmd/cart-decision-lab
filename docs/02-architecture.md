@@ -12,7 +12,7 @@ Python/scikit-learn → huấn luyện + 5-fold CV → chọn alpha trên train 
 - Test parity bao phủ tất cả 1.011 mẫu ở từng cấu hình phù hợp, đối chiếu prediction, distribution, leaf, toàn bộ path. Kiểm tra ngưỡng float32 riêng.
 - Artifact version dựa trên SHA-256 cấu trúc cây, split, schema, metrics; metadata ghi phiên bản Python/numpy/sklearn. Fixtures chỉ dùng trong kiểm thử, không đóng gói vào web.
 - Phạm vi input là miền quan sát của dataset, không phải giới hạn y tế. Reject tên sai, giá trị thiếu, nonfinite, ngoài miền; thứ tự do schema quyết định.
-- Triển khai đích: Vercel. Không lưu credentials vào repo. URL chỉ được ghi nhận sau kiểm chứng thật.
+- Triển khai: Vercel production đã xác minh tại https://cart-decision-lab.vercel.app từ commit 8078b42. Không lưu credentials vào repo; deployment evidence nằm trong evidence/deployment.json.
 
 ## Nguồn chính
 

@@ -1,0 +1,25 @@
+{
+  "source": "C:\\Users\\LAPTOP\\Downloads\\Báo cáo Hệ hỗ trợ quyết định.docx",
+  "source_sha256": "883748a5a3063274e7a1065ddac9b4bf6ddf79ad7cd8b5c3721fa1b3b9b2e6ea",
+  "final": "C:\\Users\\LAPTOP\\Dương Việt Anh\\cart-decision-lab\\deliverables\\BaoCao_CART_Va_UngDung_Final.docx",
+  "final_sha256": "9fa09074aaa41ac29b07f1caf82daf7d15a318a5fca2f0541ccb51c5b16fa363",
+  "source_paragraphs": 472,
+  "final_paragraphs": 579,
+  "source_tables": 10,
+  "final_tables": 13,
+  "source_inline_images": 9,
+  "final_inline_images": 17,
+  "cover_names_preserved": {
+    "Dương Việt Anh": true,
+    "Nguyễn Trường Giang": true,
+    "Phùng Quang Huy": true,
+    "Vũ Quốc Bảo": true
+  },
+  "toc_entries": 77,
+  "pagination_changed_headings": 0,
+  "visual_qa": {
+    "rendered_pdf_pages": 59,
+    "all_pages_rendered": true,
+    "corrected_original_table_binding": true
+  }
+}

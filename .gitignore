@@ -51,4 +51,8 @@ test-results/
 /docs/report-original-extracted.txt
 /scripts/read_report.py
 /scripts/build_report.py
+/scripts/build_deck.mjs
+/scripts/audit_deliverables.py
 /deliverables/
+/artifact-build/
+.chart-data-*/

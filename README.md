@@ -94,7 +94,7 @@ Remove-Item Env:CART_BASE_URL
 
 ## GitHub / Vercel
 
-Dùng repository riêng `cart-decision-lab`. Vercel framework **Next.js**, root repository root, install `npm ci`, build `npm run build`. Không cần env vars. Artifacts commit cùng source; Python/fixtures không nằm trong runtime web. GitHub Actions có typecheck/lint/unit/ML/build/browser checks.
+Dùng repository riêng `cart-decision-lab`. Vercel framework **Next.js**, root repository root, install `npm ci`, build `npm run build`. Không cần env vars. Artifacts commit cùng source; Python/fixtures không nằm trong runtime web. GitHub Actions có typecheck/lint/unit/ML/build/browser checks. Production đã được xác minh tại [cart-decision-lab.vercel.app](https://cart-decision-lab.vercel.app) từ commit `8078b42`; bằng chứng deployment và kiểm thử public nằm trong `evidence/deployment.json` và `evidence/browser-tests.json`.
 
 Nếu CLI chưa đăng nhập: `npx vercel login` và xác thực qua trình duyệt; không gửi mật khẩu hay token qua chat. URL thật và trạng thái triển khai ghi trong `docs/STATUS.md` sau kiểm chứng. Test local không chứng minh production đã deploy.
 

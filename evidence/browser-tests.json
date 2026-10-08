@@ -55,7 +55,7 @@
         "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
         "timeout": 45000,
         "use": {
-          "baseURL": "http://localhost:3001",
+          "baseURL": "https://cart-decision-lab.vercel.app",
           "viewport": {
             "width": 1440,
             "height": 1000
@@ -116,12 +116,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 6591,
+                  "duration": 10308,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-08T16:25:21.368Z",
+                  "startTime": "2026-10-08T16:53:55.407Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -150,12 +150,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 795,
+                  "duration": 935,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-08T16:25:28.145Z",
+                  "startTime": "2026-10-08T16:54:05.905Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -184,12 +184,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 12753,
+                  "duration": 13652,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-08T16:25:28.950Z",
+                  "startTime": "2026-10-08T16:54:06.858Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -218,12 +218,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 4241,
+                  "duration": 4847,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-08T16:25:41.721Z",
+                  "startTime": "2026-10-08T16:54:20.530Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -241,8 +241,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-10-08T16:25:20.725Z",
-    "duration": 27188.557,
+    "startTime": "2026-10-08T16:53:54.639Z",
+    "duration": 32686.999999999996,
     "expected": 4,
     "skipped": 0,
     "unexpected": 0,
